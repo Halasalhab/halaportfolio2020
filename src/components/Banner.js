@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner = () => {
   const [state] = React.useState({
-    title: "I am Hala Salhab",
+    title: "Hala Salhab",
     text:
-      "Web developer, UI/UX Designer, Fond of programming.",
+      "I am web developer, Fond of programming.",
   });
   return (
     <header className="header">
@@ -14,7 +14,7 @@ const Banner = () => {
             <div className="header__content">
               <div className="header__section">
                 <h1>{state.title}</h1>
-                <p>{state.text}</p>
+                <h2><b>{state.text}</b></h2>
               </div>
             </div>
           </div>

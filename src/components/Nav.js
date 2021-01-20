@@ -9,6 +9,9 @@ function Navbar() {
         <nav className="navbar">
             <div className="container">
                 <div className="navbar__container">
+               {/* <div  className='navbar__left-logo'>
+                <img src='src/components/logo.webp' alt='' /></div> */}
+                <h1 style={{color:'#ff4a57'}}>H.S</h1>
                     { state ? (
                         <ul className="navbar__right">
                             <li>
@@ -18,7 +21,7 @@ function Navbar() {
                                     spy={true}
                                     smooth={true}
                                 >
-                                    HomePage
+                                    Home
     </Link>
                             </li>
                             <li>

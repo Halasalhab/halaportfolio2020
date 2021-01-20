@@ -21,7 +21,7 @@ const Services = () => {
       icon: <a href='https://github.com/Pythons4/pythons'><FaGithub className="commonIcons" /></a>,
       heading: "Sparkles",
       text:
-        "Through this website, we can provide many cleaning services such as home cleaning, commercial cleaning, cleaning products, and many useful cleaning tips shared by website users.",
+        "This website provide many cleaning services, commercial cleaning, cleaning products, many useful cleaning tips shared by website users.",
     },
   ]);
   return (
