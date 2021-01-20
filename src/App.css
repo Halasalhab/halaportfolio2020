@@ -49,6 +49,7 @@ body {
 .navbar__container li :hover {
   background: #ff4a57;
   border: 2px solid transparent;
+  cursor:pointer;
 }
 .navbar__left-logo img {
   width: 110px;

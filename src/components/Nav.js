@@ -4,7 +4,7 @@ import { FaAlignJustify } from "react-icons/fa";
 function Navbar() {
     
     const [state, setState] = React.useState(true);
-
+    
     return (
         <nav className="navbar">
             <div className="container">
